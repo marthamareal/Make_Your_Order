@@ -1,8 +1,31 @@
-{% extends "header.html" %}
 
-{% block tittle %}Meals{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>meals</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
 
-{% block content %}
+<div class="header">
+    <div  id="top_row">
+        <p>+(256) 7583637383 <button>SIGNUP/LOGIN</button></p>
+
+    </div>
+    <div id="menu-row">
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/">MENU</a></li>
+            <li><a href="meal.html">MEALS</a></li>
+            <li><a href="/">ORDER</a></li>
+            <li><a href="/">ABOUT US</a></li>
+            <li><a href="/">CONTACT US</a></li>
+
+
+        </ul>
+    </div>
+</div>
 
     <div class="sub-menu">
         <h3>MEALS LIST <button onclick="create()">ADD MEAL</button></h3>
@@ -82,4 +105,5 @@
     }
 </script>
 
-{% endblock %}
+</body>
+</html>
