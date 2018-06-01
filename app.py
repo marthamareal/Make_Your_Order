@@ -22,5 +22,10 @@ def login():
     return render_template('login.html')
 
 
+@app.route('/meal')
+def meal():
+    return render_template('meal.html')
+
+
 if __name__ == '__main__':
     app.run()
