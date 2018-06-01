@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>signup</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    </head>
+<body>
+<div class="signup">
+   <div id="head">
+
+       <h4>SIGN-UP FORM</h4>
+
+   </div>
+
+    <form  style="margin-top: 20px" action="/login">
+    <label>First Name <i style="color: crimson">*</i></label>
+    <input type="text" name="fname" placeholder="first name">
+          <br>
+    <label>Last Name<i style="color: crimson">*</i></label>
+    <input type="text" name="lname" placeholder="last name">
+          <br>
+    <label>Address<i style="color: crimson">*</i></label>
+    <input type="text" name="address" placeholder="address">
+          <br>
+    <label>Tel No<i style="color: crimson">*</i></label>
+    <input type="text" name="phone" placeholder="eg..+256 756453345">
+          <br>
+    <label>Email<i style="color: crimson">*</i></label>
+    <input type="email" name="email" placeholder="eg..youremail@gmail.com">
+        <br>
+     <label>PASSWORD<i style="color: crimson">*</i></label>
+    <input type="password" name="password" placeholder="password">
+          <br>
+
+    <button type="submit">Submit</button>
+        </form>
+
+</div>
+</body>
+</html>
