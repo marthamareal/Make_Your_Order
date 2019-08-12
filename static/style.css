@@ -103,14 +103,21 @@ margin: 0;
 #menu-row ul li a:link{
    text-decoration: none;
 }
-#home-slide-show{
-    width: 85%;
+.content{
+    width: 90%;
     margin-left: 8%;
     height: 40%;
 }
+.details{
+    float: left;
+    height: 40%;
+    width: 45%;
+
+}
 #home-slide-show img{
-    width: inherit;
-    height: 550px;
+    width: 45%;
+    height: 30%;
+    float: right;
 }
 table{
     width: 85%;
